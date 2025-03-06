@@ -1,0 +1,24 @@
+.start h1{
+    font-size: 3.5em;
+    padding-bottom: .1em;
+    width: 7em;
+    max-width: 90%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.start h1::after{
+    content: "";
+     width: 2.5em;
+     height: .2em;
+     background: #c2f702;
+     position: absolute;
+     bottom: -2px;
+     left: 57%;
+     box-shadow: #def881 1px 0px 10px;
+}
+
+.start p{
+    margin: 2em 0;
+    color: rgb(150, 150, 150);
+}

@@ -1,0 +1,122 @@
+.game h1{
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+
+.game p{
+    color: rgb(150, 150, 150);
+}
+
+.points span, .tip{
+    font-weight: bold;
+}
+
+.tip span{
+    color: #c8ff00;
+}
+
+.wordContainer{
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 15px solid #c8ff00;
+    box-shadow: #def881 1px 0px 10px;
+    border-radius: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.letters, 
+.blank-square{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 2px solid #d98af8;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+}
+
+.letterContainer p{
+    margin-bottom: 1.2em;
+}
+
+.letterContainer form{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px 15px;
+}
+
+.letterContainer input{
+    background-color: #ffffff;
+    height: 40px;
+    width: 40px;
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+    border: none;
+    outline: none;
+}
+
+.quit-btn{
+    margin-top: 30px;
+    background-color: #ff0000;
+    box-shadow: #f83a3a 1px 0 5px;
+    color: #000000;
+}
+
+.quit-btn:hover, .quit-btn:active{
+    background: linear-gradient(
+    60deg,
+    #f81010,
+    #ff4242
+    );
+    box-shadow: #ff4a4a 1px 0 10px;
+
+}
+
+
+@media (max-width:900px){
+    .letters, .blank-square{
+        font-size: 50px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .wordContainer{
+        padding: 1.5em .5em;
+        border: 10px solid #c8ff00;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .letters, .blank-square{
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .wordContainer{
+        padding: 1.5em .5em;
+        border: 7.5px solid #c8ff00;
+    }
+}
+
+@media (max-width:320px){
+    .letters, .blank-square{
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .wordContainer{
+        padding: 1.5em .5em;
+        border: 7.5px solid #c8ff00;
+    }
+}
