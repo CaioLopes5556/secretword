@@ -31,8 +31,8 @@ O usuario começa com um total de 6 tentivas (guesses) e deve inserir uma letra 
 
 ### Links
 
-- Projeto URL: [Repositório GitHub](https://github.com/)
-- Live Site: [Deploy do Projeto](https://caiolopes5556.github.io/)
+- Projeto URL: [Repositório GitHub](https://github.com/CaioLopes5556/secretword)
+- Live Site: [Deploy do Projeto](https://caiolopes5556.github.io/secretword)
 
 ## Sobre o projeto
 
