@@ -1,8 +1,14 @@
 # Jogo SecretWord com React + Vite
 
-Este é meu primeiro projeto em React. Se trata de um Jogo simples no qual o usuario deve advinhar uma palavra sorteada aleatoriamente.
+Se trata de um Jogo simples no qual o usuário deve adivinhar uma palavra sorteada aleatoriamente.
 
-O usuario começa com um total de 6 tentivas (guesses) e deve inserir uma letra por vez até completar a palavra, e assim, seguir para próxima acumulando pontos. A cada letra errada, suas tentivas diminuem, enquanto que a cada palavra completada, sua pontuação aumenta. Quando as tentivas chegam a zero o jogo acaba e é mostrada a pontuação final atingida por ele.
+
+
+O usuário começa com um total de 6 tentativas e deve inserir uma letra por vez até completar a palavra, e assim, seguir para próxima acumulando pontos. 
+
+
+
+A cada letra errada, suas tentativas diminuem, enquanto que a cada palavra completada, sua pontuação aumenta. Quando as tentativas chegam a zero o jogo acaba e é mostrada a pontuação final atingida por ele.
 
 ## Conteúdo
 
